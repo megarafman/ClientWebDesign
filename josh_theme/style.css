@@ -1,0 +1,32 @@
+.herobg{
+  background-color:orange;
+height:700px;
+}
+
+.maincontainer{
+  background-color:darkmagenta;
+}
+
+.maintext{
+  background-color:aqua;
+    height:650px;
+}
+
+.sidebar{
+  background-color: antiquewhite;
+    height:650px;
+}
+
+.footerbg{
+  background-color:black;
+    height:150px;
+}
+
+.leftfoot{
+  background-color:red;
+  
+}
+
+.rightfoot{
+    background-color:beige;
+}

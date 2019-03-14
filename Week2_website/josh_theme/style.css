@@ -1,0 +1,180 @@
+.body{
+    background-color: #3f3948;
+    font-size:16px;
+font-family: arial,sans-serif;
+
+}
+
+.navbar{
+font-size:0.875e;
+    margin-bottom:0px;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+a{
+color: #fff;
+}
+
+a:hover{
+color: #ed7d1e;
+}
+
+.navbar-nav li a:hover {
+    
+background-color:transparent;
+}
+
+.navbar-brand {
+font-size:2.5em;
+    font-weight: bolder;
+letter-spacing: -3px; 
+    
+}
+
+.orange{
+color:darkorange;    
+}
+
+
+.herobg{
+height:700px;
+background: url("images/hero.jpg") no-repeat center center;
+    background-size: cover;/
+    max-width: 1412px;/
+}
+
+.herobg h1{
+    font-family: 'Raleway', sans-serif;
+   float:right; 
+    color:#ffff;/* make the text white*/
+    width:341px;/* give the H1 a width so that we wrap the text as per the design comp*/
+    font-size:7.125em; /* 114px font size in photoshop divided by 16px= 7.125*/
+    letter-spacing: -10px;/* fix the letter-spacing*/
+    font-weight: 800;/* make the text bold*/
+    line-height:75%;/* decrease the line height*/
+    margin-top:140px;/* the words are 140px away from the navbar in photoshop*/
+    text-align:right;
+}
+
+
+.maincontainer{
+  background-color:#ffff;
+}
+
+.excerpts img{
+    display:block; /*display block means this image is now has access to padding and  
+        margins'*/
+    float:right;/*move the image to the right, wrap the text*/
+    margin-right:10px;
+    margin-left:10px;
+    margin-top:30px;/*push the image down so it is inlline with the text*/
+}
+
+.excerpts a{
+color:#889098; /*need to see the link text*/ 
+}
+
+
+.main_text h2{
+    color:darkorange;
+    font-family: raleway,sans-serif;
+    font-size.1.5em;
+}
+
+.main_text h3{
+    font-family: raleway,sans-serif;
+    font-weight:800;
+}
+
+.aside_elements {
+    margin-top: 80px;
+margin-bottom: 20px;
+}
+
+.aside_elements h2{
+color: darkorange;
+font-family: raleway,sans-serif;
+font-size: 1.6em;
+}
+
+
+
+.sidebar{
+  
+}
+
+.footerbg{
+
+height:150px;
+    
+}
+
+.footerbg {
+height:150px;
+background: url("images/image_footer.jpg") no-repeat center center;
+background-size: cover;
+
+}
+
+
+
+
+.leftfoot p{
+color:#ffff;
+   margin:10px;
+}
+.leftfoot img{
+    margin:10px;
+   }
+
+
+
+.rightfoot p{
+text-align:right;
+   margin:10px;
+    color:#ffff;
+}
+.rightfoot img{
+float:right;
+    margin:10px;
+ }
+
+
+@media only screen and (max-width: 992px) {
+    .leftfoot{
+    width:50%;   /* at 992px make the width of leftfoot 50% of the screen size- Bootstrap  
+                          would normally make this div 100%*/
+        padding-left:0px;/* remove any Bootstrap padding that mess with our media query*/
+        padding-right:0px;/* remove any Bootstrap padding that mess with our media 
+                                        query*/
+        float:left;/* make sure the leftfoot div stays on the left*/
+}
+    .rightfoot{
+    width:50%;  /* at 992px make the width of leftfoot 50% of the screen size- Bootstrap would normally make this div 100%*/*/
+          padding-left:0px;
+        padding-right:0px;
+        float:right;/* make sure the leftfoot div stays on the right*/
+}
+}
+
+
+@media only screen and (max-width: 400px) {
+    .herobg{
+      height:500px; /* reduce the height and therefore the overall size of the background image*/
+    
+    }
+    
+    .herobg h1 {
+    float:none; /* remove the float:right so that the text sits in the middle of the screen*/
+      width: 221px; /* reduce the width of bix the text sits in- this will wrtap our text like the design comp*/
+    font-size: 5.125em; /* reduce the font size*/
+    letter-spacing: -10px;
+            margin-top: 220px; /* push the h1 down away from the top*/
+        line-height: 80%;
+        letter-spacing: -9px;
+}
+}
+
